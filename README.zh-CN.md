@@ -39,43 +39,32 @@ Skill 会协助智能体维护信息源、同时刷新今天和昨天、优先�
 
 ## 用户手动安装
 
-### Codex — macOS 或 Linux
+macOS、Windows 和 Linux 使用的是同一套 Skill 文件，安装流程也相同；区别仅在于系统显示用户目录路径的写法。
+
+1. 打开智能体的个人 Skills 目录：
+
+| 智能体 | 个人 Skills 目录 |
+| --- | --- |
+| Codex | 用户主目录中的 `.codex/skills` |
+| Claude Code | 用户主目录中的 `.claude/skills` |
+
+例如，Codex 目录在 Unix 风格终端中通常写作 `~/.codex/skills`，在 Windows 文件资源管理器中通常是 `%USERPROFILE%\.codex\skills`。
+
+2. 在该目录打开终端并克隆仓库：
 
 ```bash
-mkdir -p ~/.codex/skills
-git clone https://github.com/hihera/hera-content-radar-skill.git ~/.codex/skills/hera-content-radar
+git clone https://github.com/hihera/hera-content-radar-skill.git hera-content-radar
 ```
 
-### Codex — Windows PowerShell
+3. 新开一个智能体会话，以便扫描到 Skill。
 
-```powershell
-New-Item -ItemType Directory -Force "$HOME\.codex\skills" | Out-Null
-git clone https://github.com/hihera/hera-content-radar-skill.git "$HOME\.codex\skills\hera-content-radar"
-```
+如果没有 Git，可以从 GitHub 下载 ZIP，并在同一个 Skills 目录中解压为 `hera-content-radar`；`SKILL.md` 必须直接位于该文件夹根目录。
 
-### Claude Code — macOS 或 Linux
+以后更新时，在已安装的 Skill 文件夹中打开终端并运行：
 
 ```bash
-mkdir -p ~/.claude/skills
-git clone https://github.com/hihera/hera-content-radar-skill.git ~/.claude/skills/hera-content-radar
+git pull --ff-only
 ```
-
-### Claude Code — Windows PowerShell
-
-```powershell
-New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
-git clone https://github.com/hihera/hera-content-radar-skill.git "$HOME\.claude\skills\hera-content-radar"
-```
-
-安装后新开一个智能体会话，以便扫描到 Skill。如果没有 Git，可以从 GitHub 下载 ZIP，解压到对应的 `hera-content-radar` 文件夹；`SKILL.md` 必须直接位于该文件夹根目录。
-
-以后更新：
-
-```bash
-git -C ~/.codex/skills/hera-content-radar pull --ff-only
-```
-
-Windows 请把路径替换为 `$HOME\.codex\skills\hera-content-radar`；Claude Code 则使用 `.claude\skills`。
 
 ## 用智能体安装
 

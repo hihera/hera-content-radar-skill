@@ -1,8 +1,10 @@
-# Platform notes
+# Cross-platform notes
 
 Read this reference when setting up or running a radar on macOS or Windows.
 
-## Portable defaults
+## Shared behavior
+
+The Skill package, manual installation flow, agent-assisted installation prompt, source schema, and daily workflow are the same across supported desktop systems. Do not create separate operating-system instructions unless a command or path actually differs.
 
 - Use UTF-8 JSON and text files.
 - Use Python's `pathlib` and atomic file replacement for catalog edits.
@@ -10,18 +12,12 @@ Read this reference when setting up or running a radar on macOS or Windows.
 - Quote paths because user directories may contain spaces or non-ASCII characters.
 - Keep secrets in the host platform's secret store or deployment environment, never in the catalog.
 
-## macOS
+## Small environment differences
 
-- The usual personal Skill folders are `~/.codex/skills/` for Codex and `~/.claude/skills/` for Claude Code.
-- Use `python3` when `python` is not available.
-- A local-network preview may require allowing incoming connections in the macOS firewall.
-
-## Windows
-
-- The usual personal Skill folders are `$HOME\.codex\skills\` for Codex and `$HOME\.claude\skills\` for Claude Code.
-- Use `py` or `python` depending on the Python installation.
+- Personal Skill folders live under the user's home directory: `.codex/skills` for Codex and `.claude/skills` for Claude Code. Path notation varies by shell and file manager.
+- Invoke Python as `python3`, `python`, or `py`, depending on the installation.
 - Use PowerShell-native commands for copying, removing, and environment variables. Do not require WSL.
-- A local-network preview may require an inbound Windows Firewall rule for the selected port; ask before changing firewall settings.
+- A local-network preview may require an operating-system firewall exception; ask before changing firewall settings.
 
 ## Optional tools
 

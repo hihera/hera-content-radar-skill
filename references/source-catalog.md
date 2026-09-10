@@ -84,6 +84,8 @@ Use public profile records for navigation:
 
 Public List URLs may be added when the user supplies them and wants them shared. Never export private List IDs, cookies, login state, or a user's personal following flags into a reusable default catalog. Following an account and adding it to a List are separate actions; do not infer permission for either.
 
+When a user deletes a List and moves its members into “Following,” remove the obsolete List URL from the source catalog, generated directory data, and rendered embeds. Keep the public profile directory as the reusable view. Do not replace the List with a supposed public “Following feed”: X home and following timelines depend on the signed-in viewer and are not a shareable equivalent to a List. An optional `https://x.com/home` link may open X for the current viewer, while profile cards should continue to use stable public profile URLs.
+
 ## Validation sequence
 
 1. Normalize redirects, scheme, hostname casing, trailing slashes, and tracking parameters.

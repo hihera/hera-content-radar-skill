@@ -39,43 +39,32 @@ The Skill does not require a public domain. A radar can run locally. A LAN link 
 
 ## Manual installation
 
-### Codex — macOS or Linux
+The Skill files and installation flow are the same on macOS, Windows, and Linux. Only the way your operating system writes the home-directory path may differ.
+
+1. Open the agent's personal Skills directory:
+
+| Agent | Personal Skills directory |
+| --- | --- |
+| Codex | `.codex/skills` inside your user home directory |
+| Claude Code | `.claude/skills` inside your user home directory |
+
+For example, the Codex directory is normally `~/.codex/skills` in a Unix-style terminal and `%USERPROFILE%\.codex\skills` in Windows File Explorer.
+
+2. From that directory, clone the repository:
 
 ```bash
-mkdir -p ~/.codex/skills
-git clone https://github.com/hihera/hera-content-radar-skill.git ~/.codex/skills/hera-content-radar
+git clone https://github.com/hihera/hera-content-radar-skill.git hera-content-radar
 ```
 
-### Codex — Windows PowerShell
+3. Start a new agent session so the Skill can be discovered.
 
-```powershell
-New-Item -ItemType Directory -Force "$HOME\.codex\skills" | Out-Null
-git clone https://github.com/hihera/hera-content-radar-skill.git "$HOME\.codex\skills\hera-content-radar"
-```
+If Git is unavailable, download the repository ZIP and extract it as `hera-content-radar` inside the same Skills directory. `SKILL.md` must be directly inside that folder.
 
-### Claude Code — macOS or Linux
+To update later, open a terminal in the installed folder and run:
 
 ```bash
-mkdir -p ~/.claude/skills
-git clone https://github.com/hihera/hera-content-radar-skill.git ~/.claude/skills/hera-content-radar
+git pull --ff-only
 ```
-
-### Claude Code — Windows PowerShell
-
-```powershell
-New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
-git clone https://github.com/hihera/hera-content-radar-skill.git "$HOME\.claude\skills\hera-content-radar"
-```
-
-Start a new agent session after installation so the Skill can be discovered. If Git is unavailable, download the repository ZIP and extract it to the matching `hera-content-radar` folder. `SKILL.md` must be directly inside that folder.
-
-To update later:
-
-```bash
-git -C ~/.codex/skills/hera-content-radar pull --ff-only
-```
-
-On Windows, replace the path with `$HOME\.codex\skills\hera-content-radar` or the Claude Code equivalent.
 
 ## Install with an agent
 
