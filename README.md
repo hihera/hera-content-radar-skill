@@ -1,172 +1,154 @@
-# Hera Content Radar Skill
+# Hera 内容雷达 Skill
 
-[简体中文](README.zh-CN.md) · English
+简体中文 · [English](README.en.md)
 
-An Agent Skill for building and maintaining a source-backed daily content radar from YouTube, podcasts, AI/news feeds, newsletters, public X profiles or Lists, and useful web directories.
+把分散在 YouTube、Podcast、AI 资讯、Newsletter 和 X 的内容，整理成每天可阅读、可追溯的中文内容雷达。
 
-The Skill helps an agent manage sources, refresh today and yesterday, use available captions or transcripts without downloading audio by default, write Chinese summaries, synthesize cited daily insights, generate content ideas, validate the site, and publish only after checks pass.
+![Hera 内容雷达总览](docs/images/overview.jpg)
 
-> This repository contains the Skill and public starter catalogs, not a hosted service. The screenshots below show an example radar generated with the Skill.
+## 这是什么
 
-## Preview
+Hera Content Radar 是一个面向 Codex、Claude Code 等智能体的 Agent Skill。它不是一个固定的信息聚合网站，而是一套可以安装、修改来源、持续刷新并接入现有发布方式的工作流。
 
-![Daily radar overview](docs/images/overview.jpg)
+它可以帮助智能体：
 
-<p align="center">
-  <img src="docs/images/highlights.jpg" alt="Sourced daily highlights" width="49%">
-  <img src="docs/images/directory.jpg" alt="Source directory" width="49%">
-</p>
+- 同时检查今天和昨天，补录延迟发布或遗漏的内容。
+- 优先使用 YouTube 字幕、Podcast 节目说明和公开逐字稿。
+- 生成有证据边界的中文摘要，保留原始标题与链接。
+- 从全部模块提炼“今日看点”和“今日选题”。
+- 管理、规范化并去重信息源，不因一次抓取失败清空旧数据。
+- 为 X 博主目录缓存公开头像，减少页面对 X 图片服务器的依赖。
 
-## What it does
+## 快速开始
 
-- Maintains normalized YouTube channel IDs, podcast RSS feeds, editorial/newsletter feeds, public X links, and a navigation directory.
-- Refreshes both today and yesterday in the configured timezone so late publications and corrections can be recovered.
-- Prefers manual YouTube captions, then automatic captions; it does not download audio for transcription unless the user explicitly asks.
-- Uses podcast show notes, chapters, and publisher transcript links when available.
-- Produces Chinese summaries with clear provenance and avoids pretending that title-only evidence is a deep summary.
-- Creates up to ten conclusion-level “Daily Highlights,” each backed by clickable sources, plus four to six content ideas.
-- Preserves older history and manual editorial overrides when a source fails.
-- Supports local projects on macOS and Windows and can use an existing deployment workflow when one is available.
+### 1. 用智能体安装（推荐）
 
-## Requirements
+把下面这段话直接发给 Codex、Claude Code 或其他支持 Agent Skills 的智能体：
 
-- An agent that supports `SKILL.md`-style Agent Skills, such as Codex or Claude Code.
-- Git for the command-line installation method.
-- Python 3 for the optional cross-platform source catalog helper.
-- Project-specific tools only when needed. For example, `yt-dlp` improves YouTube caption retrieval, and Node.js is needed when the generated radar uses a Node-based site.
+```text
+请从 https://github.com/hihera/hera-content-radar-skill
+安装 Hera Content Radar Skill。把它放到当前智能体的个人 Skills 目录，
+确保 SKILL.md 位于 hera-content-radar 文件夹根目录。安装完成后告诉我
+是否需要开启新会话，暂时不要创建网站。
+```
 
-The Skill does not require a public domain. A radar can run locally. A LAN link only works while the host computer is awake, connected, and running the preview process.
+智能体会使用自己的 Skill 安装器，或者把仓库克隆到正确目录。安装后通常需要新开一个会话，让智能体重新扫描 Skills。
 
-## Manual installation
+### 2. 创建第一个内容雷达
 
-The Skill files and installation flow are the same on macOS, Windows, and Linux. Only the way your operating system writes the home-directory path may differ.
+```text
+使用 $hera-content-radar 和公开默认来源，为我创建一个每日内容雷达，
+先在本地打开预览。
+```
 
-1. Open the agent's personal Skills directory:
+已有内容雷达时，可以直接说：
 
-| Agent | Personal Skills directory |
+```text
+使用 $hera-content-radar 刷新今天和昨天，保留更早的数据，
+完成检查后打开最新页面。
+```
+
+## 批量更改信息源（推荐）
+
+不需要逐个修改 JSON，也不需要自己查找 YouTube Channel ID 或 Podcast RSS。最简单的方法是一次性把链接交给智能体。
+
+### 方式一：直接粘贴一批链接
+
+```text
+使用 $hera-content-radar，把下面这些链接批量加入我的信息源。
+请自动判断它们属于 YouTube、Podcast、资讯、Newsletter、X 博主或网站导航，
+解析稳定 ID 或 RSS，去重并报告无法确认的链接：
+
+https://x.com/OpenAI
+https://www.youtube.com/@AndrejKarpathy
+https://example.com/podcast
+https://example.com/newsletter
+```
+
+链接可以一行一个，也可以带上名称和简单备注。智能体会先整理成规范化目录，再更新内容。
+
+### 方式二：上传一个简单清单
+
+复制 [source-inbox.example.txt](assets/source-inbox.example.txt)，把自己的链接放进去，然后把文件交给智能体：
+
+```text
+使用 $hera-content-radar 导入我附上的来源清单。
+自动识别类型、补全稳定 ID 或 RSS、去重，并把无法确认的项目单独列出来。
+```
+
+这个清单不要求严格格式，以下写法都可以：
+
+```text
+https://x.com/OpenAI
+YouTube | Andrej Karpathy | https://www.youtube.com/@AndrejKarpathy
+Newsletter | Example | https://example.com/newsletter
+```
+
+### 方式三：直接维护配置文件
+
+适合熟悉项目结构的用户：
+
+- 当前雷达的信息源：`data/sources.json`
+- 新雷达的默认来源：`assets/default-sources.json`
+- X 博主清单：`assets/default-x-creators.json`
+
+修改后让智能体执行验证和去重即可。`scripts/catalog.py` 是可选的命令行辅助工具，不是新手使用 Skill 的前置要求。
+
+## 用户手动安装
+
+macOS、Windows 和 Linux 使用同一套文件和安装流程，区别只是用户目录的显示方式。
+
+1. 打开智能体的个人 Skills 目录：
+
+| 智能体 | 个人 Skills 目录 |
 | --- | --- |
-| Codex | `.codex/skills` inside your user home directory |
-| Claude Code | `.claude/skills` inside your user home directory |
+| Codex | 用户主目录中的 `.codex/skills` |
+| Claude Code | 用户主目录中的 `.claude/skills` |
 
-For example, the Codex directory is normally `~/.codex/skills` in a Unix-style terminal and `%USERPROFILE%\.codex\skills` in Windows File Explorer.
-
-2. From that directory, clone the repository:
+2. 在该目录打开终端并运行：
 
 ```bash
 git clone https://github.com/hihera/hera-content-radar-skill.git hera-content-radar
 ```
 
-3. Start a new agent session so the Skill can be discovered.
+3. 新开一个智能体会话。
 
-If Git is unavailable, download the repository ZIP and extract it as `hera-content-radar` inside the same Skills directory. `SKILL.md` must be directly inside that folder.
+如果没有 Git，也可以下载仓库 ZIP，解压为 `hera-content-radar`。请确认 `SKILL.md` 直接位于该文件夹根目录。
 
-To update later, open a terminal in the installed folder and run:
+更新已安装版本时，在 Skill 文件夹中运行：
 
 ```bash
 git pull --ff-only
 ```
 
-## Install with an agent
+## 默认信息源
 
-Paste this into Codex, Claude Code, or another Agent-Skills-compatible agent:
+仓库内置一组可自由删改的公开起步来源，例如：
 
-```text
-Install the Hera Content Radar Skill from
-https://github.com/hihera/hera-content-radar-skill
-into this agent's personal skills directory. Read the repository README, keep
-SKILL.md at the root of the installed skill folder, do not run the Skill yet,
-and tell me whether I need to start a new session.
-```
+- YouTube：How I AI、The Pragmatic Engineer、IBM Technology、Andrej Karpathy、Lenny's Podcast 等。
+- Podcast：硅谷101、疯投圈、声动早咖啡、文化有限等公开 RSS。
+- AI 与科技资讯：TechCrunch AI、The Verge AI、Google Blog、Hugging Face Blog。
+- Newsletter：Lenny's Newsletter、The Rundown AI、TLDR、Every、Stratechery。
+- 网站导航：AIHOT、GitHub Trending、模型和 AI 工具目录。
+- X：AI 研究、产品、开发、投资和创作领域的公开账号。
 
-The agent should use its supported Skill installer when available. Otherwise it can clone or copy the repository into the correct personal skills directory.
+这些来源只是可编辑的起点，不代表背书或强制依赖。
 
-## Basic use
+## 页面预览
 
-Examples:
+<p align="center">
+  <img src="docs/images/highlights.jpg" alt="带来源依据的今日看点" width="49%">
+  <img src="docs/images/x-creators.jpg" alt="头像正常显示的 X 博主目录" width="49%">
+</p>
 
-```text
-Use $hera-content-radar to create a local daily content radar with the public starter sources.
-```
+## 内容原则
 
-```text
-Use $hera-content-radar to refresh today and yesterday, preserve older data, run the existing quality checks, and report failed sources. Do not publish yet.
-```
+- YouTube 优先使用人工字幕，其次使用自动字幕；默认不下载音频转写。
+- 只拿到标题或简介时，会明确限制，不包装成深度摘要。
+- “今日看点”必须是有支撑来源的结论，不是文章列表换一种写法。
+- X 私密 List、登录后时间线和付费内容可能无法公开读取；公开账号链接仍可作为导航。
 
-```text
-Use $hera-content-radar to add this YouTube channel and this podcast RSS feed, deduplicate the catalog, refresh recent content, and show me a local preview.
-```
-
-Publication is not implied by a refresh. Ask the agent to publish only when you want it to use the project's existing authorized hosting workflow.
-
-## Default sources
-
-The starter catalog reflects Hera's public reading mix and is intentionally editable. Examples include:
-
-- YouTube: How I AI, The Pragmatic Engineer, IBM Technology, Andrej Karpathy, Lenny's Podcast, and selected Chinese technology channels.
-- Podcasts: 硅谷101, 疯投圈, 声动早咖啡, 文化有限, and other public RSS feeds.
-- AI/news: TechCrunch AI, The Verge AI, Google Blog, and Hugging Face Blog.
-- Newsletters: Lenny's Newsletter, The Rundown AI, TLDR, Every, and Stratechery.
-- Directory: AIHOT, GitHub Trending, model directories, and publication home pages.
-- X navigation: public profiles across AI research, products, engineering, investing, and creative work.
-
-These are examples, not endorsements or mandatory dependencies. Availability, feed terms, and redistribution rights remain with each publisher.
-
-## Change your sources
-
-For a generated radar, edit `data/sources.json`. For the defaults used by future new radars, edit:
-
-- `assets/default-sources.json`
-- `assets/default-x-creators.json`
-
-You can edit the UTF-8 JSON directly or use the portable helper:
-
-```bash
-python3 scripts/catalog.py --catalog /path/to/radar/data/sources.json list
-python3 scripts/catalog.py --catalog /path/to/radar/data/sources.json dedupe
-```
-
-Windows PowerShell:
-
-```powershell
-py scripts/catalog.py --catalog "C:\path\to\radar\data\sources.json" list
-py scripts/catalog.py --catalog "C:\path\to\radar\data\sources.json" dedupe
-```
-
-Add examples:
-
-```bash
-python3 scripts/catalog.py --catalog /path/to/data/sources.json add-youtube \
-  --name "Channel name" --handle "@channel" --channel-id "UC..." \
-  --category "AI and engineering"
-
-python3 scripts/catalog.py --catalog /path/to/data/sources.json add-podcast \
-  --name "Podcast name" --rss "https://example.com/feed.xml" \
-  --category "Technology"
-
-python3 scripts/catalog.py --catalog /path/to/data/sources.json add-feed \
-  --kind ai --name "Publisher" --url "https://example.com/feed.xml" \
-  --site-url "https://example.com/" --priority 8
-
-python3 scripts/catalog.py --catalog /path/to/data/sources.json add-directory \
-  --name "Useful site" --url "https://example.com/" \
-  --category "AI tools" --description "Short description"
-```
-
-Use `py` instead of `python3` on Windows when appropriate. After changing sources, ask the agent to validate and deduplicate the catalog before refreshing.
-
-## Privacy and safety
-
-The public starter files intentionally exclude personal account URLs, private X List IDs, cookies, tokens, email addresses, local IPs, browser history, and personal following-state flags.
-
-Before publishing your own radar:
-
-- keep paid-feed tokens and API keys in a secret store;
-- review public X Lists before sharing their IDs;
-- do not commit `.env` files, browser exports, cookies, or deployment credentials;
-- treat summaries as secondary material and verify important numbers, policies, and quotes against the original source;
-- check publisher terms before mirroring or redistributing content.
-
-## Repository structure
+## 仓库结构
 
 ```text
 hera-content-radar-skill/
@@ -174,14 +156,13 @@ hera-content-radar-skill/
 ├── agents/openai.yaml
 ├── assets/
 │   ├── default-sources.json
-│   └── default-x-creators.json
+│   ├── default-x-creators.json
+│   └── source-inbox.example.txt
 ├── references/
-│   ├── daily-refresh.md
-│   ├── platforms.md
-│   └── source-catalog.md
-└── scripts/catalog.py
+├── scripts/catalog.py
+└── docs/images/
 ```
 
-## License
+## 开源协议与内容边界
 
-[MIT](LICENSE). The license applies to this Skill's instructions, scripts, and repository assets. Third-party articles, feeds, videos, podcasts, profile images, names, and trademarks remain the property of their respective owners.
+本项目使用 [MIT License](LICENSE)。MIT 协议适用于本仓库的 Skill 指令、脚本和自有资源；第三方文章、Feed、视频、Podcast、头像、名称和商标仍归各自权利方所有。请勿把 Cookie、Token、付费 Feed 密钥或其他凭证提交到公开仓库。

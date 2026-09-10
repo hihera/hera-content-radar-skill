@@ -9,7 +9,7 @@ Maintain a source-backed daily reading site while keeping its catalog easy to ex
 
 ## Choose the mode
 
-- For adding, removing, importing, validating, or deduplicating information sources, read [references/source-catalog.md](references/source-catalog.md).
+- For adding, removing, bulk-importing, validating, or deduplicating information sources, read [references/source-catalog.md](references/source-catalog.md).
 - For fetching today and yesterday, updating summaries and insights, or publishing the site, read [references/daily-refresh.md](references/daily-refresh.md).
 - For operating-system commands, local prerequisites, or cross-platform project setup, read [references/platforms.md](references/platforms.md).
 - When both are requested, update and validate the catalog first, then refresh the affected date window and publish once.
@@ -37,6 +37,8 @@ Use an existing deployment integration when the project already has one. OpenAI 
 
 ## Update behavior
 
-When the user supplies a new creator or site, resolve its stable identifier or feed, validate it, classify it, deduplicate it, update the catalog, fetch the affected recent window, rebuild, and publish the existing site. If a source cannot be verified, record the unresolved item separately instead of inventing an ID or RSS URL.
+Accept one source or a whole inbox of pasted links, loose text, Markdown, CSV-like rows, or an attached file. Extract every candidate first, then resolve stable identifiers or feeds, validate, classify, and deduplicate the batch before updating the catalog. Do not require users to convert a simple source list into the internal JSON schema themselves. If a source cannot be verified, record it separately instead of inventing an ID or RSS URL.
+
+After the catalog changes, fetch the affected recent window and rebuild the existing site. Publish only when publication is within the user's request.
 
 Only publish after the project’s own validation succeeds and publication is within the user's request. Preserve an existing public URL and access level unless the user explicitly asks to change them. A failed refresh or deployment must not replace the last working version.

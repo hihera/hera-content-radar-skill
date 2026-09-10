@@ -1,0 +1,9 @@
+# Hera Content Radar source inbox
+# Replace these examples with your own links. One item per line is enough.
+# Optional format: Type | Name | URL | Note
+
+https://x.com/OpenAI
+YouTube | Andrej Karpathy | https://www.youtube.com/@AndrejKarpathy
+Podcast | Example show | https://example.com/podcast
+Newsletter | Example newsletter | https://example.com/newsletter
+Website | Example directory | https://example.com/

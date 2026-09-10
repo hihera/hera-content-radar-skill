@@ -12,18 +12,19 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = (
     "SKILL.md",
     "README.md",
-    "README.zh-CN.md",
+    "README.en.md",
     "LICENSE",
     "agents/openai.yaml",
     "assets/default-sources.json",
     "assets/default-x-creators.json",
+    "assets/source-inbox.example.txt",
     "references/daily-refresh.md",
     "references/platforms.md",
     "references/source-catalog.md",
     "scripts/catalog.py",
     "docs/images/overview.jpg",
     "docs/images/highlights.jpg",
-    "docs/images/directory.jpg",
+    "docs/images/x-creators.jpg",
 )
 
 PRIVATE_PATTERNS = {

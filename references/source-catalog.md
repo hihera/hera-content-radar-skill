@@ -12,6 +12,18 @@ Do not put account cookies, private list identifiers, browser-history timestamps
 
 The standard project catalog is `data/sources.json`.
 
+### Bulk source inbox
+
+Treat a pasted block of links or an attached `.txt`, `.md`, `.csv`, or `.json` file as a source inbox. The user may provide bare URLs or loose rows such as `type | name | URL | note`; strict formatting is not required.
+
+1. Extract all candidate URLs and any nearby names or notes.
+2. Detect the likely source type from the URL and page metadata.
+3. Resolve stable YouTube channel IDs, podcast RSS feeds, canonical editorial feeds, public X handles or Lists, and directory URLs.
+4. Deduplicate the complete batch against the existing catalog.
+5. Apply verified additions together and return unresolved items with a short reason.
+
+Do not make the user add records one by one or manually construct the normalized JSON. [The source-inbox example](../assets/source-inbox.example.txt) is an optional convenience, not a required input format.
+
 ### YouTube
 
 Required fields:
