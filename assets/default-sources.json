@@ -1,0 +1,745 @@
+{
+  "trackingStart": null,
+  "youtube": [
+    {
+      "name": "How I AI",
+      "handle": "@howiaipodcast",
+      "channelId": "UCRYY7IEbkHLH_ScJCu9eWDQ",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "The MAD Podcast with Matt Turck",
+      "handle": "@DataDrivenNYC",
+      "channelId": "UCQID78IY6EOojr5RUdD47MQ",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "AI Engineer",
+      "handle": "@aiDotEngineer",
+      "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "The Pragmatic Engineer",
+      "handle": "@pragmaticengineer",
+      "channelId": "UCPbwhExawYrn9xxI21TFfyw",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "IBM Technology",
+      "handle": "@IBMTechnology",
+      "channelId": "UCKWaEZ-_VweaEx1j62do_vQ",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "The AI Daily Brief",
+      "handle": "@AIDailyBrief",
+      "channelId": "UCKelCK4ZaO6HeEI1KQjqzWA",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "Dave Ebbelaar",
+      "handle": "@daveebbelaar",
+      "channelId": "UCn8ujwUInbJkBhffxqAPBVQ",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "Jason Liu",
+      "handle": "@jxnlco",
+      "channelId": "UCNhyF7LnO54xA-RW3shkSxA",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "AI Foundations",
+      "handle": "@ai-foundations",
+      "channelId": "UCWZwfV3ICOt3uEPpW6hYK4g",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "Google Cloud Tech",
+      "handle": "@googlecloudtech",
+      "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "@ZaraZhangg",
+      "channelId": "UCdJpnGphFqq48lnb8o80TcQ",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "Hung-yi Lee",
+      "handle": "@HungyiLeeNTU",
+      "channelId": "UC2ggjtuuWvxrHHHiaDH1dlQ",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "Tina Huang",
+      "handle": "@TinaHuang1",
+      "channelId": "UC2UXDak6o7rBm23k3Vv5dww",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "Andrej Karpathy",
+      "handle": "@AndrejKarpathy",
+      "channelId": "UCXUPKJO5MZQN11PqgIvyuvQ",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "回到Axton",
+      "handle": "@axtonliu",
+      "channelId": "UCBj9S8TBRlCU4QnhTEOdWZQ",
+      "category": "AI、机器学习与开发者技术"
+    },
+    {
+      "name": "Jeff Su",
+      "handle": "@JeffSu",
+      "channelId": "UCwAnu01qlnVg1Ai2AbtTMaA",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Lenny's Podcast",
+      "handle": "@LennysPodcast",
+      "channelId": "UC6t1O76G0jYXOAoYCm153dA",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "@PeterYangYT",
+      "channelId": "UCnpBg7yqNauHtlNSpOl5-cg",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Aprilynne Alter",
+      "handle": "@AprilynneAlter",
+      "channelId": "UC-PaZZpjgJ61wkK9yKfpe8w",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Aced (formerly Exponent)",
+      "handle": "@aced_io",
+      "channelId": "UCjm_qVkCPjOVDz9BWjNqO9A",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Greg Isenberg",
+      "handle": "@GregIsenberg",
+      "channelId": "UCPjNBjflYl0-HQtUvOx0Ibw",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Iman Gadzhi",
+      "handle": "@ImanGadzhi",
+      "channelId": "UCQ4FNww3XoNgqIlkBqEAVCg",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Ali Abdaal",
+      "handle": "@aliabdaal",
+      "channelId": "UCoOae5nYA7VqaXzerajD0lg",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Stratechery",
+      "handle": "@Stratechery",
+      "channelId": "UC9AHywQeW9BOcOl7dg-YMqA",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Sharp Tech Podcast",
+      "handle": "@SharpTechPodcast",
+      "channelId": "UCbGy2YOZaQ2ZqCkixSokTKQ",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Harvard Business Review",
+      "handle": "@harvardbusinessreview",
+      "channelId": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Linda Raynier",
+      "handle": "@LindaRaynier",
+      "channelId": "UCXUyg1vYSupswhi0zNeD-5w",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Ben Erez",
+      "handle": "@benerez333",
+      "channelId": "UCZ37wuLYmh5fHTUbqy2VNGA",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Dan Koe",
+      "handle": "@DanKoeTalks",
+      "channelId": "UCWXYDYv5STLk-zoxMP2I1Lw",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Stanford Graduate School of Business",
+      "handle": "@stanfordgsb",
+      "channelId": "UCGwuxdEeCf0TIA2RbPOj-8g",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "channelId": "UCcefcZRL2oaA_uBNeo5UOWg",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "Uncapped with Jack Altman",
+      "handle": "@uncappedpod",
+      "channelId": "UC6wghONDqjhSw5KsXrnSTuA",
+      "category": "产品、创业、商业与职业发展"
+    },
+    {
+      "name": "马克的技术工作坊",
+      "handle": "@马克的技术工作坊",
+      "channelId": "UCbIeBdHsfTpHsICZy59ZzhA",
+      "category": "通识教育、数学与软件工具"
+    },
+    {
+      "name": "TED",
+      "handle": "@TED",
+      "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+      "category": "通识教育、数学与软件工具"
+    },
+    {
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "channelId": "UCYO_jab_esuFRV4b17AJtAw",
+      "category": "通识教育、数学与软件工具"
+    },
+    {
+      "name": "Stanford Online",
+      "handle": "@stanfordonline",
+      "channelId": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "category": "通识教育、数学与软件工具"
+    },
+    {
+      "name": "TED-Ed",
+      "handle": "@TEDEd",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "category": "通识教育、数学与软件工具"
+    },
+    {
+      "name": "Leila Gharani",
+      "handle": "@LeilaGharani",
+      "channelId": "UCJtUOos_MwJa_Ewii-R3cJA",
+      "category": "通识教育、数学与软件工具"
+    },
+    {
+      "name": "Kevin Stratvert",
+      "handle": "@KevinStratvert",
+      "channelId": "UCfJT_eYDTmDE-ovKaxVE1ig",
+      "category": "通识教育、数学与软件工具"
+    },
+    {
+      "name": "MIT OpenCourseWare",
+      "handle": "@mitocw",
+      "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+      "category": "通识教育、数学与软件工具"
+    },
+    {
+      "name": "PAPAYA 電腦教室",
+      "handle": "@papayaclass",
+      "channelId": "UCdEpz2A4DzV__4C1x2quKLw",
+      "category": "通识教育、数学与软件工具"
+    },
+    {
+      "name": "硅谷101",
+      "handle": "@TheValley101",
+      "channelId": "UCKV2yWPB3wn0RTZh3cTD8YA",
+      "category": "中文科技、财经与知识解读"
+    },
+    {
+      "name": "Xiaomanyc 小马在纽约",
+      "handle": "@xiaomanyc",
+      "channelId": "UCLNoXf8gq6vhwsrYp-l0J-Q",
+      "category": "中文科技、财经与知识解读"
+    },
+    {
+      "name": "Nathan Rich 火锅大王",
+      "handle": "@NathanRichHotpot",
+      "channelId": "UCaSlyjhR4WC7QhYuaivxb6g",
+      "category": "中文科技、财经与知识解读"
+    },
+    {
+      "name": "硅谷101播客",
+      "handle": "@valley101podcast",
+      "channelId": "UChnNjLyx_5rk_iDPQ2BQDQA",
+      "category": "中文科技、财经与知识解读"
+    },
+    {
+      "name": "小Lin说",
+      "handle": "@xiao_lin_shuo",
+      "channelId": "UCilwQlk62k1z7aUEZPOB6yw",
+      "category": "中文科技、财经与知识解读"
+    },
+    {
+      "name": "Better Leaf 好葉",
+      "handle": "@betterleaf",
+      "channelId": "UChjHWpmNm-3HbLFkQ3TPXaA",
+      "category": "个人成长与冒险体验"
+    },
+    {
+      "name": "Yes Theory",
+      "handle": "@YesTheory",
+      "channelId": "UCvK4bOhULCpmLabd2pDMtnA",
+      "category": "个人成长与冒险体验"
+    },
+    {
+      "name": "Lex Fridman",
+      "handle": "@lexfridman",
+      "channelId": "UCSHZKyawb77ixDdsGog4iWA",
+      "category": "深度人物与思想访谈"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "handle": "@DwarkeshPatel",
+      "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+      "category": "深度人物与思想访谈"
+    }
+  ],
+  "podcasts": [
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "42章经",
+      "appleId": "1700299886",
+      "rss": "https://feed.xyzfm.space/evgg6xle9rdc",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1700299886"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "创业内幕 Startup Insider",
+      "appleId": "1448032419",
+      "rss": "https://www.ximalaya.com/album/20119986.xml",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1448032419"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "疯投圈",
+      "appleId": "1088178402",
+      "rss": "https://crazy.capital/feed",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1088178402"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "硅谷101",
+      "appleId": "1498541229",
+      "rss": "https://feeds.fireside.fm/sv101/rss",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1498541229"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "硅谷早知道",
+      "appleId": "1361458105",
+      "rss": "https://www.ximalaya.com/album/14233547.xml",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1361458105"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "海外独角兽",
+      "appleId": "1680456007",
+      "rss": "https://feed.xyzfm.space/ym6ug8jctfp8",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1680456007"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "开始连接 LinkStart",
+      "appleId": "1693180879",
+      "rss": "https://feed.xyzfm.space/q9a6lueucj6a",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1693180879"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "轻刀快马",
+      "appleId": "1680510644",
+      "rss": "https://feed.xyzfm.space/dv4uhcuxefx7",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1680510644"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "十字路口 Crossing",
+      "appleId": "1729552193",
+      "rss": "https://feed.xyzfm.space/68fyjknth9hj",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1729552193"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "晚点聊 LateTalk",
+      "appleId": "1564877433",
+      "rss": "https://feeds.fireside.fm/latetalk/rss",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1564877433"
+    },
+    {
+      "category": "科技、AI、创业与投资",
+      "name": "张小珺 Jùn｜商业访谈录",
+      "appleId": "1634356920",
+      "rss": "https://feed.xyzfm.space/dk4yh3pkpjp3",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1634356920"
+    },
+    {
+      "category": "商业、财经与公司史",
+      "name": "半拿铁｜商业沉浮录",
+      "appleId": "1615939013",
+      "rss": "https://proxy.wavpub.com/caffebreve.xml",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1615939013"
+    },
+    {
+      "category": "商业、财经与公司史",
+      "name": "商业就是这样",
+      "appleId": "1552904790",
+      "rss": "https://www.ximalaya.com/album/46587439.xml",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1552904790"
+    },
+    {
+      "category": "商业、财经与公司史",
+      "name": "声动早咖啡",
+      "appleId": "1573189055",
+      "rss": "https://www.ximalaya.com/album/51076156.xml",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1573189055"
+    },
+    {
+      "category": "文化、阅读与人物",
+      "name": "破产书店",
+      "appleId": "1717534490",
+      "rss": "https://feed.xyzfm.space/bwvj6wgyaq6l",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1717534490"
+    },
+    {
+      "category": "文化、阅读与人物",
+      "name": "文化有限",
+      "appleId": "1482731836",
+      "rss": "https://s1.proxy.wavpub.com/weknownothing.xml",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1482731836"
+    },
+    {
+      "category": "文化、阅读与人物",
+      "name": "岩中花述",
+      "appleId": "1582119137",
+      "rss": "https://feed.xyzfm.space/hwen8wf69c6g",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1582119137"
+    },
+    {
+      "category": "文化、阅读与人物",
+      "name": "天真不天真",
+      "appleId": "1731784296",
+      "rss": "https://feed.xyzfm.space/mcklbwxjdvfu",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1731784296"
+    },
+    {
+      "category": "文化、阅读与人物",
+      "name": "卫诗婕｜漫谈 Light the Star",
+      "appleId": "1754955836",
+      "rss": "https://feed.xyzfm.space/4jjdlpq3khc9",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1754955836"
+    },
+    {
+      "category": "跨文化与个人成长",
+      "name": "东腔西调",
+      "appleId": "1533768416",
+      "rss": "https://www.ximalaya.com/album/41153937.xml",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1533768416"
+    },
+    {
+      "category": "跨文化与个人成长",
+      "name": "跨国串门儿计划",
+      "appleId": "1850900599",
+      "rss": "https://feed.xyzfm.space/r8t44lmvu99m",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1850900599"
+    },
+    {
+      "category": "跨文化与个人成长",
+      "name": "小天章",
+      "appleId": "1868296281",
+      "rss": "https://feed.xyzfm.space/8em7j4cybdtj",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1868296281"
+    },
+    {
+      "category": "跨文化与个人成长",
+      "name": "纵横四海",
+      "appleId": "1671490972",
+      "rss": "https://www.ximalaya.com/album/67531569.xml",
+      "appleUrl": "https://podcasts.apple.com/cn/podcast/id1671490972"
+    }
+  ],
+  "editorialFeeds": [
+    {
+      "kind": "ai",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "siteUrl": "https://techcrunch.com/category/artificial-intelligence/",
+      "priority": 10
+    },
+    {
+      "kind": "ai",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "siteUrl": "https://www.theverge.com/ai-artificial-intelligence",
+      "priority": 10
+    },
+    {
+      "kind": "ai",
+      "name": "Google Blog",
+      "url": "https://blog.google/rss/",
+      "siteUrl": "https://blog.google/",
+      "priority": 8
+    },
+    {
+      "kind": "ai",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "siteUrl": "https://huggingface.co/blog",
+      "priority": 9
+    },
+    {
+      "kind": "newsletter",
+      "name": "Stratechery",
+      "url": "https://stratechery.com/feed/",
+      "siteUrl": "https://stratechery.com/",
+      "priority": 10
+    },
+    {
+      "kind": "newsletter",
+      "name": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/feed",
+      "siteUrl": "https://www.lennysnewsletter.com/",
+      "priority": 10
+    },
+    {
+      "kind": "newsletter",
+      "name": "Every",
+      "url": "https://every.to/feeds/posts.xml",
+      "siteUrl": "https://every.to/",
+      "priority": 8
+    },
+    {
+      "kind": "newsletter",
+      "name": "The Rundown AI",
+      "url": "https://www.therundown.ai/feed",
+      "siteUrl": "https://www.therundown.ai/",
+      "priority": 9
+    },
+    {
+      "kind": "newsletter",
+      "name": "TLDR",
+      "url": "https://tldr.tech/rss",
+      "siteUrl": "https://tldr.tech/",
+      "priority": 8
+    }
+  ],
+  "directory": [
+    {
+      "category": "AI／热点资讯",
+      "name": "AIHOT",
+      "url": "https://aihot.virxact.com/",
+      "domain": "aihot.virxact.com",
+      "description": "AI 行业动态聚合、热点榜与每日精选"
+    },
+    {
+      "category": "Newsletter／产品与创业",
+      "name": "Lenny's Newsletter | Substack",
+      "url": "https://www.lennysnewsletter.com/",
+      "domain": "lennysnewsletter.com",
+      "description": "Newsletter 首页"
+    },
+    {
+      "category": "Newsletter／科技",
+      "name": "TLDR - A Byte Sized Daily Tech Newsletter",
+      "url": "https://tldr.tech/",
+      "domain": "tldr.tech",
+      "description": "每日科技 Newsletter"
+    },
+    {
+      "category": "Newsletter／AI",
+      "name": "The Rundown AI",
+      "url": "https://www.therundown.ai/",
+      "domain": "therundown.ai",
+      "description": "每日 AI 新闻"
+    },
+    {
+      "category": "Newsletter／商业",
+      "name": "Morning Brew",
+      "url": "https://www.morningbrew.com/",
+      "domain": "morningbrew.com",
+      "description": "商业新闻 Newsletter"
+    },
+    {
+      "category": "AI／科技资讯",
+      "name": "AI News by smol.ai",
+      "url": "https://news.smol.ai/",
+      "domain": "news.smol.ai",
+      "description": "访问时页面显示 Deployment Paused"
+    },
+    {
+      "category": "AI／科技资讯",
+      "name": "机器之心",
+      "url": "https://www.jiqizhixin.com/",
+      "domain": "jiqizhixin.com",
+      "description": "中文 AI 媒体"
+    },
+    {
+      "category": "官方科技博客",
+      "name": "Google Blog",
+      "url": "https://blog.google/",
+      "domain": "blog.google",
+      "description": "Google 产品与技术新闻"
+    },
+    {
+      "category": "Newsletter／科技商业",
+      "name": "Every",
+      "url": "https://every.to/",
+      "domain": "every.to",
+      "description": "科技、AI 与商业文章"
+    },
+    {
+      "category": "Newsletter／AI",
+      "name": "AI Valley",
+      "url": "https://www.theaivalley.com/",
+      "domain": "theaivalley.com",
+      "description": "AI 新闻 Newsletter"
+    },
+    {
+      "category": "AI／科技资讯",
+      "name": "TechCrunch - Generative AI",
+      "url": "https://techcrunch.com/tag/generative-ai/",
+      "domain": "techcrunch.com",
+      "description": "生成式 AI 专题"
+    },
+    {
+      "category": "AI／科技资讯",
+      "name": "The Verge - Artificial Intelligence",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "domain": "theverge.com",
+      "description": "AI 专题"
+    },
+    {
+      "category": "模型趋势",
+      "name": "Hugging Face Models",
+      "url": "https://huggingface.co/models?sort=trending",
+      "domain": "huggingface.co",
+      "description": "热门模型列表"
+    },
+    {
+      "category": "技术社区",
+      "name": "V2EX › OpenAI",
+      "url": "https://www.v2ex.com/go/openai",
+      "domain": "v2ex.com",
+      "description": "OpenAI 主题社区"
+    },
+    {
+      "category": "Newsletter／AI",
+      "name": "The Batch | DeepLearning.AI",
+      "url": "https://www.deeplearning.ai/the-batch",
+      "domain": "deeplearning.ai",
+      "description": "AI 新闻与洞察"
+    },
+    {
+      "category": "Newsletter／AI",
+      "name": "AI 快讯",
+      "url": "https://www.axtonliu.ai/newsletters/ai",
+      "domain": "axtonliu.ai",
+      "description": "回到Axton的 AI Newsletter"
+    },
+    {
+      "category": "开源项目趋势",
+      "name": "GitHub Trending",
+      "url": "https://github.com/trending",
+      "domain": "github.com",
+      "description": "GitHub 热门仓库"
+    },
+    {
+      "category": "AI 工具导航",
+      "name": "AI工具集",
+      "url": "https://ai-bot.cn/",
+      "domain": "ai-bot.cn",
+      "description": "中文 AI 工具导航"
+    },
+    {
+      "category": "AI 工具导航",
+      "name": "小众AI",
+      "url": "https://aiinn.cn/",
+      "domain": "aiinn.cn",
+      "description": "AI 工具、开源软件与模型"
+    },
+    {
+      "category": "创作者与产品",
+      "name": "Behind the Craft | Peter Yang",
+      "url": "https://creatoreconomy.so/",
+      "domain": "creatoreconomy.so",
+      "description": "创作者经济与产品 Newsletter"
+    },
+    {
+      "category": "AI 工具导航",
+      "name": "AI产品榜（AICPB）",
+      "url": "https://www.aicpb.com/zh",
+      "domain": "aicpb.com",
+      "description": "AI 应用、网站与模型榜单"
+    },
+    {
+      "category": "AI 工具导航",
+      "name": "Toolify",
+      "url": "https://www.toolify.ai/",
+      "domain": "toolify.ai",
+      "description": "AI 工具目录"
+    },
+    {
+      "category": "AI 工具导航",
+      "name": "Easy With AI",
+      "url": "https://easywithai.com/",
+      "domain": "easywithai.com",
+      "description": "AI 工具与服务目录"
+    },
+    {
+      "category": "AI 工具导航",
+      "name": "There's An AI For That",
+      "url": "https://theresanaiforthat.com/",
+      "domain": "theresanaiforthat.com",
+      "description": "AI 工具搜索与目录"
+    },
+    {
+      "category": "开源项目榜单",
+      "name": "Github-Ranking",
+      "url": "https://github.com/EvanLi/Github-Ranking",
+      "domain": "github.com",
+      "description": "多语言 GitHub 排名仓库"
+    },
+    {
+      "category": "开源项目精选",
+      "name": "GitHubDaily",
+      "url": "https://github.com/GitHubDaily/GitHubDaily",
+      "domain": "github.com",
+      "description": "中文开源项目与技术资源精选"
+    },
+    {
+      "category": "AI 工具导航",
+      "name": "Futurepedia AI Tools",
+      "url": "https://www.futurepedia.io/ai-tools",
+      "domain": "futurepedia.io",
+      "description": "分类 AI 工具目录"
+    },
+    {
+      "category": "专业分析／订阅",
+      "name": "Stratechery by Ben Thompson",
+      "url": "https://stratechery.com/",
+      "domain": "stratechery.com",
+      "description": "科技商业与战略分析"
+    },
+    {
+      "category": "文章／产品与AI",
+      "name": "How to turn your AI into a world-class designer",
+      "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "domain": "lennysnewsletter.com",
+      "description": "Lenny's Newsletter 文章页"
+    },
+    {
+      "category": "现有内容源入口",
+      "name": "Apple Podcasts 节目资料库",
+      "url": "https://podcasts.apple.com/cn/library/shows",
+      "domain": "podcasts.apple.com",
+      "description": "节目已在“Apple播客”工作表单独整理"
+    }
+  ]
+}

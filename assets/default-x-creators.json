@@ -1,0 +1,563 @@
+{
+  "description": "Public X profiles curated for AI, product, engineering, research, and creative work. Edit or replace this list freely.",
+  "creators": [
+    {
+      "handle": "ClementDelangue",
+      "name": "clem 🤗",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/ClementDelangue"
+    },
+    {
+      "handle": "DarioAmodei",
+      "name": "Dario Amodei",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/DarioAmodei"
+    },
+    {
+      "handle": "eladgil",
+      "name": "Elad Gil",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/eladgil"
+    },
+    {
+      "handle": "gdb",
+      "name": "Greg Brockman",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/gdb"
+    },
+    {
+      "handle": "kaifulee",
+      "name": "Kai-Fu Lee",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/kaifulee"
+    },
+    {
+      "handle": "rowancheung",
+      "name": "Rowan Cheung",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/rowancheung"
+    },
+    {
+      "handle": "karpathy",
+      "name": "Andrej Karpathy",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/karpathy"
+    },
+    {
+      "handle": "3blue1brown",
+      "name": "Grant Sanderson",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/3blue1brown"
+    },
+    {
+      "handle": "ilyasut",
+      "name": "Ilya Sutskever",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/ilyasut"
+    },
+    {
+      "handle": "levelsio",
+      "name": "levelsio",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/levelsio"
+    },
+    {
+      "handle": "natfriedman",
+      "name": "Nat Friedman",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/natfriedman"
+    },
+    {
+      "handle": "StanfordOnline",
+      "name": "Stanford Online",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/StanfordOnline"
+    },
+    {
+      "handle": "twominutepapers",
+      "name": "Two Minute Papers",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/twominutepapers"
+    },
+    {
+      "handle": "mreflow",
+      "name": "Matt Wolfe",
+      "category": "设计 / 创作",
+      "profileUrl": "https://x.com/mreflow"
+    },
+    {
+      "handle": "jiahuiyu",
+      "name": "Jiahui Yu",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/jiahuiyu"
+    },
+    {
+      "handle": "sama",
+      "name": "Sam Altman",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/sama"
+    },
+    {
+      "handle": "HaanzeR",
+      "name": "Ak",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/HaanzeR"
+    },
+    {
+      "handle": "demishassabis",
+      "name": "Demis Hassabis",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/demishassabis"
+    },
+    {
+      "handle": "emollick",
+      "name": "Ethan Mollick",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/emollick"
+    },
+    {
+      "handle": "JeffDean",
+      "name": "Jeff Dean",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/JeffDean"
+    },
+    {
+      "handle": "DrJimFan",
+      "name": "Jim Fan",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/DrJimFan"
+    },
+    {
+      "handle": "_kevinlu",
+      "name": "Kevin Lu",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/_kevinlu"
+    },
+    {
+      "handle": "ShaneLegg",
+      "name": "Shane Legg",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/ShaneLegg"
+    },
+    {
+      "handle": "ylecun",
+      "name": "Yann LeCun",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/ylecun"
+    },
+    {
+      "handle": "levie",
+      "name": "Aaron Levie",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/levie"
+    },
+    {
+      "handle": "alexandr_wang",
+      "name": "Alexandr Wang",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/alexandr_wang"
+    },
+    {
+      "handle": "amasad",
+      "name": "Amjad Masad",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/amasad"
+    },
+    {
+      "handle": "AndrewYNg",
+      "name": "Andrew Ng",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/AndrewYNg"
+    },
+    {
+      "handle": "dontbesilent",
+      "name": "dontbesilent",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/dontbesilent"
+    },
+    {
+      "handle": "garrytan",
+      "name": "Garry Tan",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/garrytan"
+    },
+    {
+      "handle": "gregisenberg",
+      "name": "GREG ISENBERG",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/gregisenberg"
+    },
+    {
+      "handle": "rauchg",
+      "name": "Guillermo Rauch",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/rauchg"
+    },
+    {
+      "handle": "ianneo_ai",
+      "name": "Ian (伊恩)",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/ianneo_ai"
+    },
+    {
+      "handle": "JensenHuang",
+      "name": "Jensen Huang",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/JensenHuang"
+    },
+    {
+      "handle": "joulee",
+      "name": "Julie Zhuo",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/joulee"
+    },
+    {
+      "handle": "venturetwins",
+      "name": "Justine Moore",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/venturetwins"
+    },
+    {
+      "handle": "lulumeservey",
+      "name": "Lulu Cheng Meservey",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/lulumeservey"
+    },
+    {
+      "handle": "mattturck",
+      "name": "Matt Turck",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/mattturck"
+    },
+    {
+      "handle": "PJaccetturo",
+      "name": "PJ Ace",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/PJaccetturo"
+    },
+    {
+      "handle": "raizamrtn",
+      "name": "Raiza Martin",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/raizamrtn"
+    },
+    {
+      "handle": "tobi",
+      "name": "tobi lutke",
+      "category": "创业 / 投资",
+      "profileUrl": "https://x.com/tobi"
+    },
+    {
+      "handle": "_AK",
+      "name": "Andy.Kal",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/_AK"
+    },
+    {
+      "handle": "eladgil_",
+      "name": "Eladgil",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/eladgil_"
+    },
+    {
+      "handle": "elonmusk",
+      "name": "Elon Musk",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/elonmusk"
+    },
+    {
+      "handle": "geekbb",
+      "name": "Geek",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/geekbb"
+    },
+    {
+      "handle": "geoffreyhinton",
+      "name": "Geoffrey Hinton",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/geoffreyhinton"
+    },
+    {
+      "handle": "george__mack",
+      "name": "George Mack",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/george__mack"
+    },
+    {
+      "handle": "GergelyOrosz",
+      "name": "Gergely Orosz",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/GergelyOrosz"
+    },
+    {
+      "handle": "Google",
+      "name": "Google",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/Google"
+    },
+    {
+      "handle": "GoogleLabs",
+      "name": "Google Labs",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/GoogleLabs"
+    },
+    {
+      "handle": "HamelHusain",
+      "name": "Hamel Husain",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/HamelHusain"
+    },
+    {
+      "handle": "joshwoodward",
+      "name": "Josh Woodward",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/joshwoodward"
+    },
+    {
+      "handle": "llama_index",
+      "name": "LlamaIndex 🦙",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/llama_index"
+    },
+    {
+      "handle": "realmadhuguru",
+      "name": "Madhu Guru",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/realmadhuguru"
+    },
+    {
+      "handle": "nikitabier",
+      "name": "Nikita Bier",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/nikitabier"
+    },
+    {
+      "handle": "petergyang",
+      "name": "Peter Yang",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/petergyang"
+    },
+    {
+      "handle": "rileybrown",
+      "name": "Riley Brown",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/rileybrown"
+    },
+    {
+      "handle": "SoraSamAi",
+      "name": "SamAI - Sora Sam Altman",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/SoraSamAi"
+    },
+    {
+      "handle": "stevenbjohnson",
+      "name": "Steven Johnson",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/stevenbjohnson"
+    },
+    {
+      "handle": "stratechery",
+      "name": "Stratechery",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/stratechery"
+    },
+    {
+      "handle": "xBitcoin_Teej",
+      "name": "Teej",
+      "category": "观点 / 综合",
+      "profileUrl": "https://x.com/xBitcoin_Teej"
+    },
+    {
+      "handle": "dotey",
+      "name": "宝玉",
+      "category": "开发 / 工程",
+      "profileUrl": "https://x.com/dotey"
+    },
+    {
+      "handle": "GraceEmily70519",
+      "name": "产品二姐",
+      "category": "开发 / 工程",
+      "profileUrl": "https://x.com/GraceEmily70519"
+    },
+    {
+      "handle": "Zhiyu333",
+      "name": "躺在废墟里 Lieflat",
+      "category": "开发 / 工程",
+      "profileUrl": "https://x.com/Zhiyu333"
+    },
+    {
+      "handle": "Dipanshu_AI",
+      "name": "Dipanshu Kushwaha",
+      "category": "开发 / 工程",
+      "profileUrl": "https://x.com/Dipanshu_AI"
+    },
+    {
+      "handle": "OpenAIDevs",
+      "name": "OpenAI Developers",
+      "category": "开发 / 工程",
+      "profileUrl": "https://x.com/OpenAIDevs"
+    },
+    {
+      "handle": "swyx",
+      "name": "swyx",
+      "category": "开发 / 工程",
+      "profileUrl": "https://x.com/swyx"
+    },
+    {
+      "handle": "Dimillian",
+      "name": "Thomas Ricouard",
+      "category": "开发 / 工程",
+      "profileUrl": "https://x.com/Dimillian"
+    },
+    {
+      "handle": "zarazhangrui",
+      "name": "Zara Zhang",
+      "category": "开发 / 工程",
+      "profileUrl": "https://x.com/zarazhangrui"
+    },
+    {
+      "handle": "op7418",
+      "name": "歸藏(guizang.ai)",
+      "category": "设计 / 创作",
+      "profileUrl": "https://x.com/op7418"
+    },
+    {
+      "handle": "jh3yy",
+      "name": "jhey ʕ•ᴥ•ʔ",
+      "category": "设计 / 创作",
+      "profileUrl": "https://x.com/jh3yy"
+    },
+    {
+      "handle": "ryolu_",
+      "name": "Ryo Lu",
+      "category": "设计 / 创作",
+      "profileUrl": "https://x.com/ryolu_"
+    },
+    {
+      "handle": "srdesignman",
+      "name": "SrDesignMan",
+      "category": "设计 / 创作",
+      "profileUrl": "https://x.com/srdesignman"
+    },
+    {
+      "handle": "AIatMeta",
+      "name": "AI at Meta",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/AIatMeta"
+    },
+    {
+      "handle": "AmandaAskell",
+      "name": "Amanda Askell",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/AmandaAskell"
+    },
+    {
+      "handle": "_catwu",
+      "name": "cat",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/_catwu"
+    },
+    {
+      "handle": "claudeai",
+      "name": "Claude",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/claudeai"
+    },
+    {
+      "handle": "ClaudeDevs",
+      "name": "ClaudeDevs",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/ClaudeDevs"
+    },
+    {
+      "handle": "GoogleAI",
+      "name": "Google AI",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/GoogleAI"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "name": "Google DeepMind",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/GoogleDeepMind"
+    },
+    {
+      "handle": "huggingface",
+      "name": "Hugging Face",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/huggingface"
+    },
+    {
+      "handle": "kevinweil",
+      "name": "Kevin Weil 🇺🇸",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/kevinweil"
+    },
+    {
+      "handle": "thenanyu",
+      "name": "Nan Yu",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/thenanyu"
+    },
+    {
+      "handle": "OpenAI",
+      "name": "OpenAI",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/OpenAI"
+    },
+    {
+      "handle": "perplexity_ai",
+      "name": "Perplexity",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/perplexity_ai"
+    },
+    {
+      "handle": "trq212",
+      "name": "Thariq is on vacation",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/trq212"
+    },
+    {
+      "handle": "theworldlabs",
+      "name": "World Labs",
+      "category": "AI 公司 / 产品",
+      "profileUrl": "https://x.com/theworldlabs"
+    },
+    {
+      "handle": "alexalbert__",
+      "name": "Alex Albert",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/alexalbert__"
+    },
+    {
+      "handle": "AnthropicAI",
+      "name": "Anthropic",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/AnthropicAI"
+    },
+    {
+      "handle": "DbrxMosaicAI",
+      "name": "Databricks AI Research",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/DbrxMosaicAI"
+    },
+    {
+      "handle": "gabriel1",
+      "name": "gabriel",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/gabriel1"
+    },
+    {
+      "handle": "lennysan",
+      "name": "Lenny Rachitsky",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/lennysan"
+    },
+    {
+      "handle": "mckaywrigley",
+      "name": "Mckay Wrigley",
+      "category": "AI 研究",
+      "profileUrl": "https://x.com/mckaywrigley"
+    }
+  ]
+}

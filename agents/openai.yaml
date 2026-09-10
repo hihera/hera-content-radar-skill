@@ -1,0 +1,5 @@
+interface:
+  display_name: "Hera Content Radar"
+  short_description: "聚合并更新 YouTube、播客、资讯与 Newsletter"
+  brand_color: "#2457E6"
+  default_prompt: "Use $hera-content-radar to refresh my daily content site and summarize the most important signals."
