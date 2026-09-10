@@ -86,6 +86,8 @@ Public List URLs may be added when the user supplies them and wants them shared.
 
 When a user deletes a List and moves its members into “Following,” remove the obsolete List URL from the source catalog, generated directory data, and rendered embeds. Keep the public profile directory as the reusable view. Do not replace the List with a supposed public “Following feed”: X home and following timelines depend on the signed-in viewer and are not a shareable equivalent to a List. An optional `https://x.com/home` link may open X for the current viewer, while profile cards should continue to use stable public profile URLs.
 
+For a rendered profile directory, avoid loading every avatar directly from X on each visit. Cache public profile images into bounded local static assets, keep the original public image URL as refresh provenance, use lazy loading, and provide a text or local-image fallback. Refresh the cache when creators or avatars change rather than during every daily content update. Validate that every local avatar exists before publishing.
+
 ## Validation sequence
 
 1. Normalize redirects, scheme, hostname casing, trailing slashes, and tracking parameters.
